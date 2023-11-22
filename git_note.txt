@@ -3,9 +3,11 @@ This is simple guide for git commands.
 git init
 git add <file> # from 工作区 to 暂存区
 git commit -m <message> # from 暂存区 to 分支
+git status
+git diff <file>
 git log (--pretty=oneline)
 git reflog # look all history
 git reset --hard HEAD^ # last version  HEAD~100 last 100 version
 git reset --hard <commit_id>
-git checkout --file # return to before last git commit or git add
-git reset HEAD <file>
+git checkout --file # return to before last git commit or git add, abandon the change in 工作区, replace 工作区版本 with 版本库版本
+git reset HEAD <file> # unstage the change in 暂存区, put it back to 工作区
