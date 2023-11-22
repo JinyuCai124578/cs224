@@ -7,5 +7,5 @@ git log (--pretty=oneline)
 git reflog # look all history
 git reset --hard HEAD^ # last version  HEAD~100 last 100 version
 git reset --hard <commit_id>
-git checkout --file
+git checkout --file # return to before last git commit or git add
 git reset HEAD <file>
