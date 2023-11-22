@@ -1,0 +1,11 @@
+This is simple guide for git commands.
+
+git init
+git add <file> # from 工作区 to 暂存区
+git commit -m <message> # from 暂存区 to 分支
+git log (--pretty=oneline)
+git reflog # look all history
+git reset --hard HEAD^ # last version  HEAD~100 last 100 version
+git reset --hard <commit_id>
+git checkout --file
+git reset HEAD <file>
